@@ -40,7 +40,7 @@ SUPPORTED PLATFORMS:
     </tr>
     <tr>
         <td>Parrot OS</td>
-        <td>3.1 </td>
+        <td>4.0 </td>
     </tr>
 </table>
 
