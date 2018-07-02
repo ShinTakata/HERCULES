@@ -62,7 +62,7 @@ func main() {
     var HERCULES_PATH string = string("echo 'export HERCULES_PATH="+_Path+"' >> ~/.bashrc")
     exec.Command("sh", "-c", HERCULES_PATH).Run()
     exec.Command("sh", "-c", string("export HERCULES_PATH="+string(Path))).Run()
-    if strings.Contains(string(OsVersion), "Ubuntu") || strings.Contains(string(OsVersion), "kali") {
+    if strings.Contains(string(OsVersion), "Ubuntu") || strings.Contains(string(OsVersion), "kali") || strings.Contains(string(OsVersion), "Parrot") {
     	BoldYellow.Println("[*] Installing golang...")
     	 if Priv == false {
   			BoldRed.Println("[!] ERROR : Setup needs root privileges")
