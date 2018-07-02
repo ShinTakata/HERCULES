@@ -39,7 +39,7 @@ SUPPORTED PLATFORMS:
         <td>* </td>
     </tr>
     <tr>
-        <td>Parrot OS</td>
+        <td>Updated Parrot OS</td>
         <td>4.0 </td>
     </tr>
 </table>
